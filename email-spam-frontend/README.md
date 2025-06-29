@@ -1,12 +1,34 @@
-# React + Vite
+# 📧 Email Classification Web App (Spam vs Ham)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack email classification web app that uses **AI (Naive Bayes model)** to detect whether an email is **spam or ham (not spam)**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+### 🖥️ Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **Tailwind CSS**
+- Axios (for API requests)
+
+### 🧠 Backend
+
+- **FastAPI** (Python-based high-performance web framework)
+- **Joblib** (for loading the ML model)
+- **Naive Bayes Classifier** (trained with scikit-learn)
+- **CORS Middleware** (for React integration)
+
+---
+
+## 🚀 Features
+
+- Classify emails as **spam or ham** using AI.
+- Clean and responsive UI built with **Tailwind CSS**.
+- API-based architecture for frontend-backend separation.
+- Trained machine learning model using **Naive Bayes**.
+- Interactive **Swagger Docs** (`/docs`) for testing backend.
+
+---
+
+## 📁 Project Structure
