@@ -1,5 +1,5 @@
 # 📧 Email Classification Web App (Spam vs Ham)
-
+This is our semester project of Artificial Intelligence course, developed in a group of three people.
 A full-stack email classification web app that uses **AI (Naive Bayes model)** to detect whether an email is **spam or ham (not spam)**.
 
 ---
